@@ -10,17 +10,6 @@ import com.api.book.bootrestbook.model.Book;
 @Component
 public class BookService {
     
-    // private static List<Book> list = new ArrayList<>();
-
-    // static{
-
-    //     list.add(new Book(10,"book1", "axc"));
-    //     list.add(new Book(12,"book2", "abd"));
-    //     list.add(new Book(13,"book3", "jkd"));
-    //     list.add(new Book(16,"book4", "hjdj"));
-
-    // }
-
     @Autowired
     private BookRepository bookRepository;
     //getting the book data
